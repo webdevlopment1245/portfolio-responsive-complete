@@ -528,3 +528,18 @@ img {
     width: 450px;
   }
 }
+span1::before{
+    content: "WEB DESIGNER";
+    color: aqua;
+  animation: textchange 15s infinite linear;
+    
+}
+@keyframes textchange {
+    0% {content:"WEB DESIGNER";}
+    25%{content: "SOFTWARE DEVELOPER";}
+    50%{content: "JAVA DEVELOPER";}
+    75%{content: "FRONT-END DEVELOPER";}
+    100%{content: "BACK-END DEVELOPER";}
+   
+
+}
